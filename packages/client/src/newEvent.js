@@ -12,9 +12,9 @@ import {
   InputLeftAddon,
   InputGroup,
 } from "@chakra-ui/react";
-import { create as ipfsHttpClient } from "ipfs-http-client";
+import { create } from 'ipfs-http-client';
 
-const client = ipfsHttpClient("https://ipfs.infura.io:5001/api/v0");
+const client = create("https://ipfs.infura.io:5001/api/v0");
 
 const NewEvent = () => {
   const [fileUrl, setFileUrl] = useState("");
