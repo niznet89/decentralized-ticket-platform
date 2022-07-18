@@ -1,5 +1,6 @@
 {
   "name": "decentralized-ticket-platform",
+  "homepage": ".",
   "private": true,
   "devDependencies": {},
   "workspaces": {
